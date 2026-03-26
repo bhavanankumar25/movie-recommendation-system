@@ -8,10 +8,17 @@ This project is a Machine Learning-based recommendation system that suggests mov
 - Uses TF-IDF and cosine similarity
 - Fast and simple recommendation engine
 
-## Algorithm Used
-- Content-Based Filtering
-- TF-IDF Vectorization
-- Cosine Similarity
+##  How It Works
+This project uses a **Content-Based Filtering** approach:
+
+- **TF-IDF (Term Frequency - Inverse Document Frequency)**  
+  Converts movie genres into numerical vectors  
+
+- **Cosine Similarity**  
+  Measures similarity between movies  
+
+Movies with higher similarity scores are recommended to the user.
+
 
 ## Technologies
 - Python
