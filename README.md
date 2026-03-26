@@ -1,17 +1,30 @@
-## Movie Recommendation System
-A simple movie recommendation system built with Python on Google Colab.
+# Movie Recommendation System
 
-What it does
-Type in a movie name and it suggests 5 similar movies based on 
-genres, cast, director and plot keywords.
+## Overview
+This project is a Machine Learning-based recommendation system that suggests movies based on similarity.
 
-Dataset
-TMDB 5000 Movies Dataset from Kaggle
+## Features
+- Recommend movies based on input
+- Uses TF-IDF and cosine similarity
+- Fast and simple recommendation engine
 
-Tools used
-Python, Pandas, Scikit-learn, Google Colab
+## Algorithm Used
+- Content-Based Filtering
+- TF-IDF Vectorization
+- Cosine Similarity
 
- how to run
-1. Upload the dataset files from Kaggle
-2. Run all cells in order
-3. Pick a movie from the dropdown and get recommendations
+## Technologies
+- Python
+- Pandas
+- Scikit-learn
+
+#3 How to Run
+1. Install libraries:
+   pip install pandas scikit-learn
+
+2. Run:
+   python app.py
+
+## 📊 Example
+Input: Toy Story  
+Output: Finding Nemo, Cars, Monsters Inc
