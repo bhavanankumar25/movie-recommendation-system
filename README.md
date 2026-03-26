@@ -18,13 +18,15 @@ This project is a Machine Learning-based recommendation system that suggests mov
 - Pandas
 - Scikit-learn
 
-#3 How to Run
-1. Install libraries:
-   pip install pandas scikit-learn
+## How to Run
 
-2. Run:
-   python app.py
+1. Install required libraries:
+   pip install -r requirements.txt
 
-## 📊 Example
-Input: Toy Story  
-Output: Finding Nemo, Cars, Monsters Inc
+2. Open the notebook:
+   movie-recommendation-system.ipynb
+
+3. Run all cells step by step
+
+4. Enter a movie name when prompted
+
